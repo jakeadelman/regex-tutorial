@@ -4,8 +4,7 @@ Regex is a powerful way to work with strings. It has many components such as anc
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
-
+The following regex is an example of a string separator using regex. With this regex patter you can separate any type of phone number layout into first, second and third sections.
 ```
 .?(\\d{3}).*(\\d{3}).*(\\d{4})
 ```
@@ -60,8 +59,4 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
-
-```
-
-```
+By Jacob Adelman. Github [jakeadelman](https://github.com/jakeadelman)
