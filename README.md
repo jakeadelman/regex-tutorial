@@ -12,49 +12,51 @@ Briefly summarize the regex you will be describing and what you will explain. In
 
 ## Table of Contents
 
-- [Anchors](#anchors)
-- [Quantifiers](#quantifiers)
 - [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
-- [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
 ## Regex Components
 
-### Anchors
-
-In this case an ancor is used
-
-### Quantifiers
-
 ### OR Operator
 
-.? - 0 or 1 character to account for the optional open parenthesis
+```.?``` - 0 or 1 character to account for the optional open parenthesis
 
-.* - 0 or more characters to account for the optional closing parenthesis, hyphen, and space characters
+```.*``` - 0 or more characters to account for the optional closing parenthesis, hyphen, and space characters
+
+```.*``` 0 or more characters to account for the optional hyphen and space characters
+
 
 ### Character Classes
 
-(\\d{3}) - 3 digit characters (first capture group i.e. first 3 digits)
+```(\\d{3})``` - 3 digit characters (first capture group i.e. first 3 digits)
 
-### Flags
+```(\\d{3})``` 3 digit characters (second capture group i.e. next 3 digits)
+
+```(\\d{4})``` 4 digit characters (third capture group i.e. last 4 digits)
+
+
 
 ### Grouping and Capturing
 
+
+```(\\d{3})``` - 3 digit characters (first capture group i.e. first 3 digits)
+
+```(\\d{3})``` 3 digit characters (second capture group i.e. next 3 digits)
+
+```(\\d{4})``` 4 digit characters (third capture group i.e. last 4 digits)
+
+
+
 ### Bracket Expressions
 
-### Greedy and Lazy Match
 
-### Boundaries
+```.?``` - 0 or 1 character to account for the optional open parenthesis
 
-### Back-references
+```.*``` - 0 or more characters to account for the optional closing parenthesis, hyphen, and space characters
 
-### Look-ahead and Look-behind
+
 
 ## Author
 
